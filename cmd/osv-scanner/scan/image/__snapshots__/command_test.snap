@@ -619,7 +619,7 @@ Scanning local image tarball "./testdata/test-java-full.tar"
 
 
 Container Scanning Result (Alpine Linux v3.21) (Based on "eclipse-temurin" image):
-Total 26 packages affected by 91 known vulnerabilities (3 Critical, 41 High, 40 Medium, 4 Low, 3 Unknown) from 2 ecosystems.
+Total 26 packages affected by 91 known vulnerabilities (4 Critical, 42 High, 40 Medium, 4 Low, 1 Unknown) from 2 ecosystems.
 91 vulnerabilities can be fixed.
 
 
@@ -678,18 +678,18 @@ Scanning local image tarball "./testdata/test-python-empty.tar"
 
 
 Container Scanning Result (Debian GNU/Linux 10 (buster)) (Based on "python" image):
-Total 15 packages affected by 27 known vulnerabilities (0 Critical, 7 High, 4 Medium, 2 Low, 14 Unknown) from 2 ecosystems.
+Total 15 packages affected by 29 known vulnerabilities (0 Critical, 7 High, 6 Medium, 2 Low, 14 Unknown) from 2 ecosystems.
 27 vulnerabilities can be fixed.
 
 
 PyPI
-+---------------------------------------------------------------------------------------------+
-| Source:artifact:/usr/local/lib/python3.9/ensurepip/_bundled/pip-23.0.1-py3-none-any.whl     |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| PACKAGE | INSTALLED VERSION | FIX AVAILABLE | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| pip     | 23.0.1            | Fix Available |          3 | # 7 Layer        | python        |
-+---------+-------------------+---------------+------------+------------------+---------------+
++-------------------------------------------------------------------------------------------------------+
+| Source:artifact:/usr/local/lib/python3.9/ensurepip/_bundled/pip-23.0.1-py3-none-any.whl               |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| PACKAGE | INSTALLED VERSION | FIX AVAILABLE           | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| pip     | 23.0.1            | Partial fixes Available |          4 | # 7 Layer        | python        |
++---------+-------------------+-------------------------+------------+------------------+---------------+
 +------------------------------------------------------------------------------------------------+
 | Source:artifact:/usr/local/lib/python3.9/ensurepip/_bundled/setuptools-58.1.0-py3-none-any.whl |
 +------------+-------------------+---------------+------------+------------------+---------------+
@@ -697,13 +697,13 @@ PyPI
 +------------+-------------------+---------------+------------+------------------+---------------+
 | setuptools | 58.1.0            | Fix Available |          3 | # 7 Layer        | python        |
 +------------+-------------------+---------------+------------+------------------+---------------+
-+---------------------------------------------------------------------------------------------+
-| Source:artifact:/usr/local/lib/python3.9/site-packages/pip-23.0.1.dist-info/METADATA        |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| PACKAGE | INSTALLED VERSION | FIX AVAILABLE | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| pip     | 23.0.1            | Fix Available |          3 | # 13 Layer       | python        |
-+---------+-------------------+---------------+------------+------------------+---------------+
++-------------------------------------------------------------------------------------------------------+
+| Source:artifact:/usr/local/lib/python3.9/site-packages/pip-23.0.1.dist-info/METADATA                  |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| PACKAGE | INSTALLED VERSION | FIX AVAILABLE           | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| pip     | 23.0.1            | Partial fixes Available |          4 | # 13 Layer       | python        |
++---------+-------------------+-------------------------+------------+------------------+---------------+
 +------------------------------------------------------------------------------------------------+
 | Source:artifact:/usr/local/lib/python3.9/site-packages/setuptools-58.1.0.dist-info/METADATA    |
 +------------+-------------------+---------------+------------+------------------+---------------+
@@ -750,18 +750,18 @@ Scanning local image tarball "./testdata/test-python-full.tar"
 
 
 Container Scanning Result (Debian GNU/Linux 10 (buster)) (Based on "python" image):
-Total 21 packages affected by 54 known vulnerabilities (1 Critical, 18 High, 17 Medium, 3 Low, 15 Unknown) from 2 ecosystems.
+Total 21 packages affected by 56 known vulnerabilities (1 Critical, 18 High, 19 Medium, 3 Low, 15 Unknown) from 2 ecosystems.
 54 vulnerabilities can be fixed.
 
 
 PyPI
-+---------------------------------------------------------------------------------------------+
-| Source:artifact:/usr/local/lib/python3.9/ensurepip/_bundled/pip-23.0.1-py3-none-any.whl     |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| PACKAGE | INSTALLED VERSION | FIX AVAILABLE | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| pip     | 23.0.1            | Fix Available |          3 | # 7 Layer        | python        |
-+---------+-------------------+---------------+------------+------------------+---------------+
++-------------------------------------------------------------------------------------------------------+
+| Source:artifact:/usr/local/lib/python3.9/ensurepip/_bundled/pip-23.0.1-py3-none-any.whl               |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| PACKAGE | INSTALLED VERSION | FIX AVAILABLE           | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| pip     | 23.0.1            | Partial fixes Available |          4 | # 7 Layer        | python        |
++---------+-------------------+-------------------------+------------+------------------+---------------+
 +------------------------------------------------------------------------------------------------+
 | Source:artifact:/usr/local/lib/python3.9/ensurepip/_bundled/setuptools-58.1.0-py3-none-any.whl |
 +------------+-------------------+---------------+------------+------------------+---------------+
@@ -790,13 +790,13 @@ PyPI
 +---------+-------------------+---------------+------------+------------------+---------------+
 | idna    | 2.7               | Fix Available |          1 | # 17 Layer       | --            |
 +---------+-------------------+---------------+------------+------------------+---------------+
-+---------------------------------------------------------------------------------------------+
-| Source:artifact:/usr/local/lib/python3.9/site-packages/pip-23.0.1.dist-info/METADATA        |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| PACKAGE | INSTALLED VERSION | FIX AVAILABLE | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
-+---------+-------------------+---------------+------------+------------------+---------------+
-| pip     | 23.0.1            | Fix Available |          3 | # 13 Layer       | python        |
-+---------+-------------------+---------------+------------+------------------+---------------+
++-------------------------------------------------------------------------------------------------------+
+| Source:artifact:/usr/local/lib/python3.9/site-packages/pip-23.0.1.dist-info/METADATA                  |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| PACKAGE | INSTALLED VERSION | FIX AVAILABLE           | VULN COUNT | INTRODUCED LAYER | IN BASE IMAGE |
++---------+-------------------+-------------------------+------------+------------------+---------------+
+| pip     | 23.0.1            | Partial fixes Available |          4 | # 13 Layer       | python        |
++---------+-------------------+-------------------------+------------+------------------+---------------+
 +----------------------------------------------------------------------------------------------+
 | Source:artifact:/usr/local/lib/python3.9/site-packages/requests-2.20.0.dist-info/METADATA    |
 +----------+-------------------+---------------+------------+------------------+---------------+
@@ -864,7 +864,7 @@ Scanning local image tarball "./testdata/test-package-tracing.tar"
 
 
 Container Scanning Result (Alpine Linux v3.20) (Based on "alpine" image):
-Total 10 packages affected by 265 known vulnerabilities (1 Critical, 13 High, 13 Medium, 2 Low, 236 Unknown) from 2 ecosystems.
+Total 10 packages affected by 265 known vulnerabilities (2 Critical, 14 High, 13 Medium, 2 Low, 234 Unknown) from 2 ecosystems.
 265 vulnerabilities can be fixed.
 
 
@@ -1263,10 +1263,11 @@ You can also view the full vulnerability list in your terminal with: `osv-scanne
               "index": 7
             }
           },
-          "groups": 3,
+          "groups": 4,
           "vulnerabilities": [
             "PYSEC-2023-228",
             "GHSA-4xh5-x5gv-qwph",
+            "GHSA-58qw-9mgm-455v",
             "GHSA-6vgw-5pg2-w6jp",
             "GHSA-mq26-g339-26xf"
           ]
@@ -1394,10 +1395,11 @@ You can also view the full vulnerability list in your terminal with: `osv-scanne
               "index": 13
             }
           },
-          "groups": 3,
+          "groups": 4,
           "vulnerabilities": [
             "PYSEC-2023-228",
             "GHSA-4xh5-x5gv-qwph",
+            "GHSA-58qw-9mgm-455v",
             "GHSA-6vgw-5pg2-w6jp",
             "GHSA-mq26-g339-26xf"
           ]
@@ -3317,10 +3319,10 @@ Scanning local image tarball "./testdata/test-node_modules-npm-full.tar"
           },
           "groups": 7,
           "vulnerabilities": [
-            "USN-8005-1",
             "USN-7259-1",
             "USN-7541-1",
             "USN-7760-1",
+            "USN-8005-1",
             "UBUNTU-CVE-2016-20013",
             "UBUNTU-CVE-2025-0395",
             "UBUNTU-CVE-2025-15281",
@@ -3345,10 +3347,10 @@ Scanning local image tarball "./testdata/test-node_modules-npm-full.tar"
           },
           "groups": 7,
           "vulnerabilities": [
-            "USN-8005-1",
             "USN-7259-1",
             "USN-7541-1",
             "USN-7760-1",
+            "USN-8005-1",
             "UBUNTU-CVE-2016-20013",
             "UBUNTU-CVE-2025-0395",
             "UBUNTU-CVE-2025-15281",
@@ -3447,8 +3449,8 @@ Scanning local image tarball "./testdata/test-node_modules-npm-full.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
@@ -3470,8 +3472,8 @@ Scanning local image tarball "./testdata/test-node_modules-npm-full.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
@@ -3493,8 +3495,8 @@ Scanning local image tarball "./testdata/test-node_modules-npm-full.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
@@ -3516,8 +3518,8 @@ Scanning local image tarball "./testdata/test-node_modules-npm-full.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
@@ -4368,10 +4370,10 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
           },
           "groups": 7,
           "vulnerabilities": [
-            "USN-8005-1",
             "USN-7259-1",
             "USN-7541-1",
             "USN-7760-1",
+            "USN-8005-1",
             "UBUNTU-CVE-2016-20013",
             "UBUNTU-CVE-2025-0395",
             "UBUNTU-CVE-2025-15281",
@@ -4396,10 +4398,10 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
           },
           "groups": 7,
           "vulnerabilities": [
-            "USN-8005-1",
             "USN-7259-1",
             "USN-7541-1",
             "USN-7760-1",
+            "USN-8005-1",
             "UBUNTU-CVE-2016-20013",
             "UBUNTU-CVE-2025-0395",
             "UBUNTU-CVE-2025-15281",
@@ -4498,8 +4500,8 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
@@ -4521,8 +4523,8 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
@@ -4544,8 +4546,8 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
@@ -4567,8 +4569,8 @@ Scanning local image tarball "./testdata/test-ubuntu.tar"
           },
           "groups": 4,
           "vulnerabilities": [
-            "USN-7314-1",
             "USN-7257-1",
+            "USN-7314-1",
             "USN-7542-1",
             "UBUNTU-CVE-2018-5709",
             "UBUNTU-CVE-2024-26458",
