@@ -40,3 +40,9 @@ require (
 // Personal fork: bumping golang.org/x/net to address CVE-2023-44487 (HTTP/2 rapid reset)
 // See: https://pkg.go.dev/vuln/GO-2023-2102
 replace golang.org/x/net => golang.org/x/net v0.21.0
+
+// Personal fork: also bumping golang.org/x/sys to pick up the latest security
+// and compatibility fixes for Linux/macOS. Noticed v0.16.0 had a minor issue
+// with file descriptor handling on darwin.
+// See: https://pkg.go.dev/golang.org/x/sys
+replace golang.org/x/sys => golang.org/x/sys v0.17.0
