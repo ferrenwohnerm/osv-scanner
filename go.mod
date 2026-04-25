@@ -36,3 +36,7 @@ require (
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/tools v0.17.0 // indirect
 )
+
+// Personal fork: bumping golang.org/x/net to address CVE-2023-44487 (HTTP/2 rapid reset)
+// See: https://pkg.go.dev/vuln/GO-2023-2102
+replace golang.org/x/net => golang.org/x/net v0.21.0
