@@ -50,3 +50,8 @@ replace golang.org/x/sys => golang.org/x/sys v0.17.0
 // Personal fork: bumping golang.org/x/mod to v0.15.0 for improved module graph
 // pruning behavior noticed when scanning projects with large dependency trees.
 replace golang.org/x/mod => golang.org/x/mod v0.15.0
+
+// Personal fork: bumping golang.org/x/tools to v0.18.0 to stay in sync with
+// the golang.org/x/mod upgrade above; the two packages are typically released
+// together and mismatched versions can cause subtle build issues.
+replace golang.org/x/tools => golang.org/x/tools v0.18.0
