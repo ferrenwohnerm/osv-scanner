@@ -55,3 +55,9 @@ replace golang.org/x/mod => golang.org/x/mod v0.15.0
 // the golang.org/x/mod upgrade above; the two packages are typically released
 // together and mismatched versions can cause subtle build issues.
 replace golang.org/x/tools => golang.org/x/tools v0.18.0
+
+// Personal fork: bumping golang.org/x/sync to v0.7.0 to pick up a fix for
+// errgroup.WithContext where cancellation could be delayed under high goroutine
+// concurrency. Observed this intermittently when scanning large monorepos.
+// See: https://pkg.go.dev/golang.org/x/sync
+replace golang.org/x/sync => golang.org/x/sync v0.7.0
