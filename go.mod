@@ -46,3 +46,7 @@ replace golang.org/x/net => golang.org/x/net v0.21.0
 // with file descriptor handling on darwin.
 // See: https://pkg.go.dev/golang.org/x/sys
 replace golang.org/x/sys => golang.org/x/sys v0.17.0
+
+// Personal fork: bumping golang.org/x/mod to v0.15.0 for improved module graph
+// pruning behavior noticed when scanning projects with large dependency trees.
+replace golang.org/x/mod => golang.org/x/mod v0.15.0
