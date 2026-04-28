@@ -61,3 +61,8 @@ replace golang.org/x/tools => golang.org/x/tools v0.18.0
 // concurrency. Observed this intermittently when scanning large monorepos.
 // See: https://pkg.go.dev/golang.org/x/sync
 replace golang.org/x/sync => golang.org/x/sync v0.7.0
+
+// Personal fork: bumping golang.org/x/exp to pick up improvements to
+// slices/maps helpers that I use in my local experiments branching off this repo.
+// The 20240103 snapshot was missing a couple of slice utility functions I wanted.
+replace golang.org/x/exp => golang.org/x/exp v0.0.0-20240213143201-ec583247a57a
